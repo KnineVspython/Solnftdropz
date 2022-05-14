@@ -4,12 +4,6 @@
 
 You can get started with this project in two ways: locally or using the [setup wizard](https://nextjs-wizard.netlify.app/).
 
-### Setting Up Locally
-
-If you're doing it locally, start with clicking the [use this template](https://github.com/netlify-templates/nextjs-blog-theme/generate) button on GitHub. This will create a new repository with this template's files on your GitHub account. Once that is done, clone your new repository and navigate to it in your terminal.
-
-From there, you can install the project's dependencies by running:
-
 ```shell
 yarn install
 ```
