@@ -1,0 +1,54 @@
+{
+  "name": "solnftdrops-blog",
+  "description": "A customizable Next.js and Tailwind blog starter. Designed by the Bejamas agency.",
+  "license": "MIT",
+  "homepage": "https://github.com/KnineVspython/Solnftdrops",
+  "bugs": {
+    "url": "https://github.com/KnineVspython/Solnftdrops/issues"
+  },
+  "scripts": {
+    "dev": "next",
+    "dev:watch": "next-remote-watch ./posts",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "lint": "next lint --no-cache"
+  },
+  "dependencies": {
+    "@mapbox/rehype-prism": "^0.8.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "classnames": "^2.3.1",
+    "gray-matter": "^4.0.3",
+    "next": "12.1.4",
+    "next-mdx-remote": "^4.0.2",
+    "next-remote-watch": "1.0.0",
+    "next-seo": "^5.4.0",
+    "next-themes": "^0.1.1",
+    "preact": "^10.7.1",
+    "prismjs": "^1.27.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^3.0.23"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": false,
+    "jsxSingleQuote": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "useTabs": false
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  }
+}
