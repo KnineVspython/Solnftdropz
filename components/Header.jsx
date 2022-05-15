@@ -14,7 +14,7 @@ export default function Header() {
         />
       </Anchor>
       <p className='text-2xl dark:text-white text-center'>
-        <Anchor href='https://discord.gg/mZEgBr7r'>{name}</Anchor>
+        <Anchor href='https://discord.gg/ntNqc7GFsV'>{name}</Anchor>
       </p>
     </header>
   )
