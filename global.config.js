@@ -3,7 +3,7 @@ const site_name =
   'SOLNFTDROPS'
 const name =
   process.env.BLOG_NAME ||
-  'Degen Dragon DAO - MADE WITH ❤️ IN DEGEN POWERED BY DGNZ COIN'
+  'ALPHA CONNECTION - MADE WITH ❤️ IN DEGEN POWERED BY DGNZ COIN'
 const blogTitle =
   process.env.BLOG_TITLE ||
   'Featured Drops'

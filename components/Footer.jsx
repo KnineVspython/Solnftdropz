@@ -44,7 +44,7 @@ function ThemeSwitcher() {
 
 export default function Footer() {
   const text = process.env.BLOG_FOOTER_TEXT
-  const footerText = text ? decodeURI(text) : 'All rights reserved.'
+  const footerText = text ? decodeURI(text) : 'All rights reserved. @DegenDragonz | IMPORTANT: Projects listed above are not endorsed or verified by Solnftdrops.com. Always make sure to do your own research before investing. Use a "burner" wallet for all the Mints (some Mints might be created by bad actors).'
 
   return (
     <footer className='pt-16 pb-24 flex flex-col items-center'>
